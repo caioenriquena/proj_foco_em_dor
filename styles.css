@@ -1,0 +1,13 @@
+.conteudo-principal-escrito{
+    max-width: 195px;
+	margin: 0 auto;
+	display: flex;
+    text-decoration-line: underline;
+    text-align: center ;
+    }
+.conteudo-principal-escrito-subtitulo{
+    max-width: 250px;
+	margin: 0 auto;
+	display: flex;
+    text-align: center;
+}
