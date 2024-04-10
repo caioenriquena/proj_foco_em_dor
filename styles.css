@@ -1,13 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400; 0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.cabecalho-menu{
+    background-color:#ffffff;
+}
+.cabecalho-menu-item{
+    font-family: 'mulish', sans-serif;
+    color: #8d0c00;
+    font-weight: 400;
+    position: sticky;
+    top: 20px;
+    left: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
 .conteudo-principal-escrito{
+    font-family: 'mulish', sans-serif;
     max-width: 195px;
 	margin: 0 auto;
 	display: flex;
-    text-decoration-line: underline;
-    text-align: center ;
+    text-align: center;
+    margin-top: 95px;
     }
 .conteudo-principal-escrito-subtitulo{
     max-width: 250px;
 	margin: 0 auto;
 	display: flex;
     text-align: center;
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'mulish', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.conteudo-informativo-escrito{
+    font-family: 'mulish', sans-serif;
+    text-align: center;
+}
+.conteudo-principal-foto-escrito-botao{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-family: 'mulish', sans-serif;
+    font-weight: 500;
+    color:#ffffff;
+    background-color:#41b010;
+}
+.conteudo-informativo-subtitulo{
+    font-family: 'mulish', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.conteudo-principal-botao{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-family: 'mulish', sans-serif;
+    font-weight: 500;
+    color:#ffffff;
+    background-color:#8d0c00;
+}
+.conteudo-secundario-escrito{
+    font-family: 'mulish', sans-serif;
+    text-align: center;
+}
+.conteudo-secundario-escrito-titulo{
+    font-family: 'mulish',sans-serif;
+    text-align: center;
+}
+.conteudo-secundario-escrito-subtitulo{
+    font-family: 'mulish', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.rodape{
 }
