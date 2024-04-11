@@ -29,7 +29,7 @@ if ($conn->query($sql) === TRUE) {
     $zap = "O cliente : $nome! Fez o agendamento ". $data_atual ." no sistema";
 
     $message = $twilio->messages
-        ->create("whatsapp:+558387346669", // to
+        ->create("whatsapp:+558387698885", // to
             array(
                 "from" => "whatsapp:+14155238886",
                 "body" => $zap
