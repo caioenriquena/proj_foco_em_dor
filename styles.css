@@ -33,7 +33,7 @@ div#f001{
     font-weight: 600;
     position: absolute;
     padding-left: 580px;
-
+/* isso é apenas para marcação -> */
     border: 1px dashed black;
 
 }
@@ -49,7 +49,7 @@ div#f001{
     height: 5vh;
     width: 19vw;
 
-
+    /* isso é apenas para marcação -> */
     border: 1px dashed black;
 
 }
