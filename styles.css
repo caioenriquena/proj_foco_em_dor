@@ -2,9 +2,21 @@
 .cabecalho-menu{
     background-color:#ffffff;
 }
+
+div#f001{
+    display: flex;
+    background-image: url("img/JPESPECTROS_TREINO_SABADO_ANDERSONSILVA-111.jpg");
+    background-repeat: repeat-y;
+    position: relative;
+    height: 35vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: 10% 160%;
+    border: 1px dashed black;
+}
 .cabecalho-menu-item{
     font-family: 'mulish', sans-serif;
-    color: #8d0c00;
+    color: #901919;
     font-weight: 400;
     position: sticky;
     top: 20px;
@@ -13,31 +25,33 @@
     justify-content: center;
     padding: 10px;
 }
-.conteudo-principal-escrito{
+#x2{
     font-family: 'mulish', sans-serif;
-	margin: 0 auto;
-	display: flex;
-    text-align: center;
-    margin-top: 25px;
-    color: #7b1919;
+    color: #ffffff;
     font-size: 30px;
     line-height: 95%;
     font-weight: 600;
-    position: relative;
-    left: calc(50% - 256px);
-    top: calc(50% - 64.5px);
-    width: 405px;
-    }
-.conteudo-principal-escrito-subtitulo{
-    text-align: center;
-    max-width: 250px;
-	margin: 8px;
-	display: flex;
+    position: absolute;
+    padding-left: 580px;
+
+    border: 1px dashed black;
+
 }
-.conteudo-principal-escrito-subtitulo{
+#x3{
+    display: flex;
     font-family: 'mulish', sans-serif;
     font-weight: 400;
     text-align: center;
+    color: white;
+    position: relative;
+    justify-items: stretch;
+    align-items: center;
+    height: 5vh;
+    width: 19vw;
+
+
+    border: 1px dashed black;
+
 }
 .conteudo-informativo-escrito{
     font-family: 'mulish', sans-serif;
