@@ -119,6 +119,20 @@ button.conteudo-principal-escrito-subtitulo{
     text-align: center;
     color: #ffffff;
 }
+body {
+    background-image: url(/img/bolanocampo.jpg);
+    
+    color: #333; /* cor do texto */
+}
+.container {
+    padding-top: 50px;
+}
+.bg-athletic {
+    background-color: #803235; /* cor de fundo alegre e atlética */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 .rodape{
     height: 50px;
     background-color: #540902;
