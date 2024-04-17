@@ -33,11 +33,9 @@ div#f001{
     top: 50px;
     font-weight: 600px;
     position: absolute;
-    padding-left: 580px;
-    text-decoration: underline;
+    left: 580px;
     line-height: 1.4em;
-/* isso é apenas para marcação -> */
-    border: 1px dashed black;
+    border-bottom: 0.5mm solid;
 
 }
 #x3{
@@ -58,9 +56,9 @@ div#f001{
     color: #545454;
 }
 .conteudo-principal-foto-escrito-botao{
-    color: #ffffff;
     background-color:#41b010;
     border: none;
+    text-decoration: underline;
     position:absolute;
     top:70%;
     left:50%;
@@ -71,7 +69,6 @@ div#f001{
     border-radius: 5px;
     font-family: "mulish", sans-serif;
     font-size: 11px;
-    
     line-height: 2px;
     font-weight: 100%;
 }
@@ -82,11 +79,32 @@ button.conteudo-principal-escrito-subtitulo{
     color: #545454;
     font-weight: bold;
 }
+/* teste: */
+.conteudo-principal-photo{
+    display: grid;
+    flex-direction: column;
+    justify-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin: 30px 80px 30px;
+}
+.conteudo-principal-photo>div:nth-child(n + 1){
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+.conteudo-principal-photo>#pk{
+    grid-column: 1;
+    grid-row: 2 / 1;
+}
+/* acima é um teste */
 .conteudo-informativo-subtitulo{
     font-family: 'mulish', sans-serif;
     font-weight: 400;
     text-align: center;
     color: #3c3c3c;
+    
 }
 .conteudo-principal-botao{
     border-radius: 5px;
@@ -97,7 +115,7 @@ button.conteudo-principal-escrito-subtitulo{
     color:#ffffff;
     background-color:#8d0c00;
     width: 120px;
-    
+        
 }
 
 .conteudo-secundario{
