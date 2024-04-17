@@ -22,7 +22,17 @@
             <input type="text" class="form-control" id="cpf" name="cpf" required>
         </div>
         <button type="submit" class="btn btn-primary">Consultar</button>
+
     </form>
+    <br>
+    <button onclick="voltar()" class="btn btn-primary">Agendar Novamente</button>
+
+    <script>
+        function voltar () {
+        window.location.href = 'formulario-consulta.html';
+    }
+    </script>
+
 </div>
 
 <!-- Aqui você pode exibir os resultados da consulta -->
