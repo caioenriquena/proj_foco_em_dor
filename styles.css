@@ -22,8 +22,8 @@ div#f001{
     top: 20px;
     left: 15px;
     align-items: center;
-    justify-content: center;
-    padding: 10px;
+    justify-content: space-between;
+
 }
 #x2{
     font-family: 'mulish', sans-serif;
@@ -95,7 +95,6 @@ button.conteudo-principal-escrito-subtitulo{
     color:#ffffff;
     background-color:#8d0c00;
     width: 120px;
-    
 }
 
 .conteudo-secundario{
@@ -119,11 +118,11 @@ button.conteudo-principal-escrito-subtitulo{
     text-align: center;
     color: #ffffff;
 }
-body {
+/*body {
     background-image: url(/img/bolanocampo.jpg);
     
     color: #333; /* cor do texto */
-}
+
 .container {
     padding-top: 50px;
 }
