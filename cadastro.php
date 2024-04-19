@@ -7,13 +7,14 @@ use Twilio\Rest\Client;
 $nome = $_POST['nome'];
 $cpf = $_POST['cpf'];
 $telefone = $_POST['telefone'];
-$sintoma = $_POST['sintoma'];
+$sintoma = $_POST['sintomas'];
 
 // Conexão com o banco de dados
 include("config.php");
 
 // Inserção no banco de dados
 $sql = "INSERT INTO agendamento (nome,cpf,telefone,sintoma) values ('$nome','$cpf','$telefone','$sintoma')";
+
 
 if ($conn->query($sql) === TRUE) {
     // Mensagem de sucesso
