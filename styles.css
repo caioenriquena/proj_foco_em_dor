@@ -1,60 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400; 0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.cabecalho-menu{
-    background-color:#ffffff;
+nav{
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-div#f001{
+.container{
     display: flex;
-    background-image: url("img/JPESPECTROS_TREINO_SABADO_ANDERSONSILVA-111.jpg");
-    background-repeat: repeat-y;
-    position: relative;
-    height: 35vh;
-    width: 100vw;
-    background-size: cover;
-    background-position: 10% 160%;
-
-    
-}
-.cabecalho-menu-item{
-    font-family: 'mulish', sans-serif;
-    color: #901919;
-    font-weight: 400;
-    position: sticky;
-    top: 20px;
-    left: 15px;
-    align-items: center;
     justify-content: space-between;
-
+    align-items: center;
+    margin: 0 auto;
 }
-#x2{
-    font-family: 'mulish', sans-serif;
-    color: #ffffff;
-    font-size: 30px;
-    top: 50px;
-    font-weight: 600px;
-    position: absolute;
-    left: 580px;
-    line-height: 1.4em;
-    border-bottom: 0.5mm solid;
 
+.logo img {
+    padding-left: 40px;
+    width: 100px;
+    height: auto;
 }
-#x3{
+.menu li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-right: 60px;
+}
+.contact{
     display: flex;
-    font-family: 'mulish', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    color: white;
-    position: relative;
-    height: 5vh;
-    width: 19vw;
-    top:40%;
-    left:40.5%;
+}
+.contact a{
+    align-items: center;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.contact img{
+    width: 150px;
 }
 .conteudo-informativo-escrito{
     font-family: 'mulish', sans-serif;
     text-align: center;
     color: #545454;
 }
+
 .conteudo-principal-foto-escrito-botao{
     background-color:#41b010;
     border: none;
@@ -115,10 +102,6 @@ button.conteudo-principal-escrito-subtitulo{
     color:#ffffff;
     background-color:#8d0c00;
     width: 120px;
-<<<<<<< HEAD
-=======
-        
->>>>>>> f85965917bab43628d5253c7d4dff5cc83e4097f
 }
 
 .conteudo-secundario{
@@ -156,15 +139,52 @@ button.conteudo-principal-escrito-subtitulo{
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-.rodape{
-    height: 50px;
-    background-color: #540902;
+.base {
+    display: flex;
+    background-color: #8D0C00;
 }
-.conteudo-rodape{
-    color: #ffffff;
-    font-family: 'mulish', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    padding: 12px;
 
+.footer {
+    background-color: #540902;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.agradecimento {
+    padding-top: 130px;
+    color: #8D0C00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agradecimento > h2 {
+    padding: 0px;
+}
+
+hr, a {
+    color: #8D0C00 ;
 }
