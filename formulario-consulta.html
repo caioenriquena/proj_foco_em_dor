@@ -4,67 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendamento de Consulta</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-image: url(/img/bolanocampo.jpg);
-            
-            color: #333; /* cor do texto */
-        }
-        .container {
-            padding-top: 50px;
-        }
-        .bg-athletic {
-            background-color: #803235; /* cor de fundo alegre e atlética */
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <form action="cadastro.php" method="POST" class="bg-athletic" >
-                    <h2 class="text-center text-white">Agende sua Consulta</h2>
-                    <div class="mb-3">
-                        <label for="nome" class="form-label text-white">Nome</label>
-                        <input type="text" class="form-control" id="nome" name="nome" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="cpf" class="form-label text-white">CPF</label>
-                        <input type="text" class="form-control" id="cpf" name="cpf" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="telefone" class="form-label text-white">Telefone</label>
-                        <input type="tel" class="form-control" id="telefone" name="telefone" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="sintomas" class="form-label text-white">Sintomas</label>
-                        <textarea class="form-control" id="sintomas" name="sintomas" rows="3" required></textarea>
-                    </div>
-                    <div class="text-center">
-                        <button href="cadastro.php" type="submit" class="btn btn-primary">Agendar</button>
-                    </div>
-                </form>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="./img/logo.png" alt="Logo">
+                </a>
+                <ul class="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#">Concultorio</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <div class="Contact">
+                    <a href="#" class="phone">
+                        <img src="./img/Design sem nome (10).svg" alt="telefone" height="30px">
+                    </a>
+                    <a href="https://wa.me/5583999269208?text=Ol%C3%A1%20Andr%C3%A9%20Moreira,%20vim%20atrav%C3%A9s%20do%20seu%20site%20e%20gostaria%20de%20marcar%20um%20hor%C3%A1rio." class="whatsapp">
+                        <img src="./img/Design sem nome (11) (1).svg" alt="Whatsapp" height="30px">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="agradecimento">
+        <div>
+
+            <h1>Obrigado por agendar sua consulta!</h1>
+            <hr>
+            <h3>Entraremos em contato em breve, fique atento ao WhatsApp!</h3>
+            <h3>A equipe Foco em dor agradece sua preferência e até logo!</h3>
+            <div class="btn-enviar">
+                <a href="http://127.0.0.1:5501/index.html">
+                    <button>Voltar para página principal.</button>
+                </a>
             </div>
         </div>
-    </div>
-
-    <!-- Inclusão do JS do Bootstrap via CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
-<!-- Botão de consultar agendamento com estilo semelhante ao botão de cadastrar -->
-<div class="container text-center consultar-btn">
-    <a href="consultar-agendamento.php" class="btn btn-primary">Consultar Agendamento</a>
-</div>
-
-<!-- Incluindo Bootstrap JS (opcional) -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </main>
+    <footer>
 
 
+    </footer>
 </body>
 </html>
