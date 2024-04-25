@@ -53,6 +53,8 @@ form{
     color: #fff;
     display: flex;
     flex-direction: column;
+    font-family: "mulish", sans-serif;
+    font-weight: 400;
     gap: 13px;
     width: 60%;
     max-width: 550px;
@@ -76,7 +78,7 @@ form{
     justify-content: center;
     width: 100%;
     height: 60vh;
-    background-image: url(../img/JPESPECTROS_TREINO_SABADO_ANDERSONSILVA-111.jpg);
+    background-image: url(../img/Design\ sem\ nome-2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
