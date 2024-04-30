@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(/img/bolanocampo.jpg);
+            
+            color: #333; /* cor do texto */
+        }
+        .container {
+            padding-top: 50px;
+        }
+        .bg-athletic {
+            background-color: #803235; /* cor de fundo alegre e atlética */
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="login.php" method="POST" class="bg-athletic" >
+                    <h2 class="text-center text-white">Login</h2>
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-white">email</label>
+                        <input type="text" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="senha" class="form-label text-white">senha</label>
+                        <input type="text" class="form-control" id="cpf" name="senha" required>
+                    </div>
+                    <div class="text-center">
+                        <a href="cadastro.html"> Ainda não possui login? Cadastre-se</a> <br><br>
+                        <button href="login.php" type="submit" class="btn btn-primary">Acessar</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        
+    </body>
+    </html>
