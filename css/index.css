@@ -76,6 +76,7 @@ form{
     align-items: center;
     align-content: center;
     justify-content: center;
+    text-align: center;
     width: 100%;
     height: 60vh;
     background-image: url(../img/Design\ sem\ nome-2.svg);
@@ -84,14 +85,61 @@ form{
     background-position:center ;
 }
 
-.perfil > h1{
-    padding-left: 20px;
+.perfil h1{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 38.5vw;
+    padding-bottom: 7px;
+    border-bottom: 1px solid white;
+    
 }
+.base-1{
+    background: white;
+    width: 100px;
+    height: 100vh;
+}
+.base_central{
+    background: white;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350mm;
+    left: 85px;
+    text-align: center;
+}
+
+.base_central h2{
+    font-family: "mulish", sans-serif;
+    font-weight: normal;
+    
+}
+.base_central h3{
+    font-family: "mulish", sans-serif;
+    font-weight: normal;
+}
+
+.btn-ver-mais button{
+    background-color: #8D0C00;
+    color: #fff;
+    padding:7px 33px 7px;
+    font-size: 12px;
+    font-weight: 100;
+    border: 0;
+    border-radius:7px;
+    cursor: pointer;
+
+}
+
 .btn-agende button{
     background-color: #41b010;
     color: #fff;
     padding:7px 20px 7px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 100;
     border: 0;
     border-radius:7px;
@@ -108,8 +156,6 @@ form{
     border-radius: 7px;
     cursor: pointer;
 }
-
-
 
 .base {
     display: flex;
