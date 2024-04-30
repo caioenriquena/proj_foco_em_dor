@@ -7,7 +7,7 @@ use Twilio\Rest\Client;
 $nome = $_POST['nome'];
 $cpf = $_POST['cpf'];
 $telefone = $_POST['telefone'];
-$sintoma = $_POST['sintomas'];
+$sintoma = $_POST['sintoma'];
 
 // Conexão com o banco de dados
 include("config.php");
