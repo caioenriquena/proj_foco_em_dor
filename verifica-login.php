@@ -14,7 +14,7 @@ if ($result->num_rows > 0) {
     $_SESSION['tipo_usuario'] = $row['tipo']; 
 
     if ($_SESSION['tipo_usuario'] === 'comum') {
-        echo "<script>alert('Login efetuado'); window.location.href = 'formulario-consulta.html';</script>";
+        echo "<script>alert('Login efetuado'); window.location.href = 'formulario-consulta.php';</script>";
     } elseif ($_SESSION['tipo_usuario'] === 'admin') {
         header("Location: consultar-agendamento.php");
     }else{

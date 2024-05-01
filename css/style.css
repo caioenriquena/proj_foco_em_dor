@@ -1,49 +1,49 @@
-nav{
+nav {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.container{
+  
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 }
-
-.logo img{
+  
+.logo img {
     padding-left: 40px;
     width: 100px;
     height: auto;
 }
-
-.menu li{
+  
+.menu li {
     display: inline-block;
     margin-right: 60px;
 }
-
-.menu a{
+  
+.menu a {
     text-decoration: none;
-    color: #8d0c00;
+    color: #8D0C00;
     font-weight: bold;
     font-size: 20px;
 }
-
+  
 .contact {
     display: flex;
 }
-
-.contact a{
+  
+.contact a {
     align-items: center;
     margin-right: 50px;
     text-decoration: none;
 }
-
-.contact img{
+  
+.contact img {
     width: 150px;
 }
-
-form{
-    color: #8d0c00;
+  
+form {
+    color: #8D0C00;
     display: flex;
     flex-direction: column;
     gap: 13px;
@@ -51,17 +51,17 @@ form{
     max-width: 550px;
 }
 
-.campo{
-    width: 100%;
+.campo {
+    width: 100%; 
     padding: 10px;
-    border: 1pz solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
+    font-size: 16px; 
     font-family: sans-serif;
 }
 
-.perfil{
+.perfil {
     padding-top: 70px;
     display: flex;
     align-items: center;
@@ -71,68 +71,67 @@ form{
     height: 60vh;
 }
 
-.perfil > h1{
+.perfil > h1 {
     padding-left: 20px;
 }
 
-.btn-enviar button{
+.btn-enviar button {
     color: #fff;
     padding: 4px 20px 4px;
     font-size: 15px;
     font-weight: 600;
-    background-color: #8d0c00;
+    background-color: #8D0C00;
     border: 0;
     border-radius: 7px;
     cursor: pointer;
 }
 
-.base{
+.base {
     display: flex;
-    background-color: #8d0c00;
+    background-color: #8D0C00;
 }
 
-
+.footer {
+    background-color: #540902;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+  
 .copyright p {
     margin: 0;
     font-size: 14px;
 }
-
-.links ul{
+  
+.links ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
-.links li{
+  
+.links li {
     display: inline-block;
     margin-right: 15px;
 }
-
-.links a{
+  
+.links a {
     color: #fff;
     text-decoration: none;
     font-size: 12px;
 }
-
-.agradecimento{
+  
+.agradecimento {
     padding-top: 130px;
-    color: #8d0c00;
+    color: #8D0C00;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.agradecimento > h2{
+.agradecimento > h2 {
     padding: 0px;
 }
 
-hr, a{
-    color: #540902;
-}
-
-.footer{
-    background-color: #540902;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+hr, a {
+    color: #8D0C00 ;
 }

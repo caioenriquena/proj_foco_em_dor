@@ -1,3 +1,8 @@
+<?php 
+include("sessao_config.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -47,6 +52,9 @@
                     </div>
                     <div class="text-center">
                         <button href="cadastro.php" type="submit" class="btn btn-primary">Agendar</button>
+                    </div>
+                    <div>
+                        <a href="logout.php" >Logoff</a>
                     </div>
                 </form>
             </div>
