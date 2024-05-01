@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "cadastro_agendamento";
+$dbname = "sistema";
 
 // Cria a conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
