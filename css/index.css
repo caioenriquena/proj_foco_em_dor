@@ -14,7 +14,10 @@ nav{
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-
+main{
+    width: 100vw;
+    height: 300vh;
+}
 .container{
     display: flex;
     justify-content: space-between;
@@ -80,9 +83,9 @@ nav{
 .perfil h3{
     display: flex;
     text-align: center;
-    top: 200px;
     font-weight: 500;
     left: 38.5vw;
+    padding-left: 159px;
     font-family: 'Mulish', sans-serif;
     color: #fff;
 }
@@ -95,7 +98,6 @@ nav{
     font-family: 'Mulish', sans-serif;
     color: #fff;
 }
-
 
 .btn-enviar button{
     color: #fff;
@@ -179,6 +181,10 @@ nav{
 
 .base {
     display: flex;
+    position: absolute;
+    top: 116.4vw;
+    height: 450px;
+    width: 1930px;
     background-color: #8D0C00;
 }
 
