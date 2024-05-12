@@ -14,7 +14,7 @@ $sql = "INSERT INTO agendamento (nome,cpf,telefone,sintoma) values ('$nome','$cp
 if ($conn->query($sql) === TRUE) {
     // Mensagem de sucesso
 
-    echo "<script>alert('Cadastro realizado com sucesso!'); window.location.href = 'formulario-consulta.html';</script>";
+    echo "<script>alert('Cadastro realizado com sucesso!'); window.location.href = 'agendado.html';</script>";
 
 print($message->sid);
 

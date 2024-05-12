@@ -11,7 +11,7 @@ $senha = $_POST["senha"];
 $sql = "INSERT INTO usuario (nome, email, senha, tipo) VALUES ('$nome', '$email', '$senha'  , 'comum')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "<script>alert('Cadastro realizado com sucesso!'); window.location.href = 'login.html';</script>";
+    echo "<script>alert('Cadastro realizado com sucesso!'); window.location.href = 'login.php';</script>";
 
 } else {
     echo "Erro ao cadastrar: " . $conn->error;

@@ -1,3 +1,13 @@
+<?php 
+session_start();
+
+if(isset($_SESSION['usuario_id']) && $_SESSION['usuario_id'] != null ){
+
+    echo "<script>alert('Você já está logado'); window.location.href = 'formulario-consulta.php';</script>";
+
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,7 +29,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="senha" class="form-label text-white">senha</label>
-                        <input type="text" class="form-control" id="cpf" name="senha" required>
+                        <input type="password" class="form-control" id="cpf" name="senha" required >
                     </div>
                     <div class="text-center">
                         <a href="cadastro_usuario.html"> Ainda não possui login? Cadastre-se</a> <br><br>
