@@ -32,7 +32,7 @@
 
     <script>
         function voltar () {
-        window.location.href = 'formulario-consulta.html';
+        window.location.href = 'formulario-consulta.php';
     }
     </script>
 
