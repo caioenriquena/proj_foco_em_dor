@@ -83,15 +83,42 @@ main{
     color: #fff;
 }
 
-.btn-enviar button{
+.agradecimento h1{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 32vw;
+    font-family: 'Mulish', sans-serif;
+    color: #8D0C00;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.agradecimento h3{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 32vw;
+    font-family: 'Mulish', sans-serif;
+    color: #8D0C00;
+    padding-bottom: 7px;
+
+}
+.btn-enviar button {
+    background-color: #8D0C00;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 90px;
+    position:relative;
+    left: 720px;
+    margin-top: 190px;
+    top: 50px;
     color: #fff;
-    padding: 4px 20px 4px;
-    position: relative;
-    font-size: 15px;
-    top: 100px;
-    right: 320px;
+    font-size: 1rem;
     font-weight: 500;
-    background-color: #41B010;
     border: 0;
     border-radius: 7px;
     cursor: pointer;
