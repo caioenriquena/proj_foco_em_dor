@@ -10,15 +10,21 @@ body {
 
 .container {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 60px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container > a > img {
+    width: 140px;
+    padding-left: 95px;
+    padding-bottom: 20px;
 }
 
 .login-form fieldset {
     border: 2px solid #8D0C00;
     border-radius: 8px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .login-form legend {
@@ -38,11 +44,13 @@ body {
 }
 
 .form-control {
-    width: 100%;
+    width: 100%; 
     padding: 10px;
-    border: 1px solid #ced4da;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px; 
+    font-family: sans-serif;
 }
 
 .text-center {
