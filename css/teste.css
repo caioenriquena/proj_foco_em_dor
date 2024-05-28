@@ -16,13 +16,13 @@ body {
 }
 
 .login-form fieldset {
-    border: 2px solid #dc3545;
+    border: 2px solid #8D0C00;
     border-radius: 8px;
     padding: 20px;
 }
 
 .login-form legend {
-    color: #dc3545;
+    color: #8D0C00;
     font-size: 1.5em;
     padding: 0 10px;
 }
@@ -34,7 +34,7 @@ body {
 .form-label {
     display: block;
     margin-bottom: 5px;
-    color: #dc3545;
+    color: #8D0C00;
 }
 
 .form-control {
@@ -50,7 +50,7 @@ body {
 }
 
 a {
-    color: #dc3545;
+    color: #8D0C00;
     text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .btn {
-    background-color: #dc3545;
+    background-color: #8D0C00;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -69,5 +69,5 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: #c82333;
+    background-color: #8D0C00;
 }

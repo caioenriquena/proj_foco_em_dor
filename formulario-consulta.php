@@ -1,6 +1,4 @@
- <?php 
-include('sessao_config.php');
-?> 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -27,7 +25,7 @@ include('sessao_config.php');
               </ul>
               <div class="contact">
                 <a href="#" class="phone">
-                  <img src="img/contato.svg" alt="Telefone">
+                  <img src="img/ctt.svg" alt="Telefone">
                 </a>
                 <a href="https://wa.me/5583999269208?text=Ol%C3%A1%20Andr%C3%A9%20Moreira,%20vim%20atrav%C3%A9s%20do%20seu%20site%20e%20gostaria%20de%20marcar%20um%20hor%C3%A1rio." class="whatsapp" target="_blank">
                   <img src="img/wpp.svg" alt="WhatsApp">
