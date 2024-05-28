@@ -38,23 +38,33 @@
 <main>
         <div class="perfil">
             <form action="cadastro.php" method="POST">
-                <h1>Agende sua consulta:</h1>
-                <label for="nome">Nome</label>
-                <input class="campo" name="nome" type="text" id="nome" placeholder="Digite seu nome" required>
-                <label for="cpf">CPF</label>
-                <input class="campo" name="cpf" type="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" required>
-                <label for="telefone">Telefone</label>
-                <input class="campo" name="telefone" for="telefone" type="tel" id="telefone" placeholder="Digite um telefone para contato" required>
-                <label for="sintoma">Descreva o motivo do seu contato</label>
-                <textarea class="campo" name="sintoma" id="sintoma"  cols="30" rows="6" placeholder="Descreva seus sintomas(local da dor, intensidade e quando comecou)" required></textarea>
-                <div class="btn-enviar">
+              <fieldset>
+                <legend>Agende sua consulta:</legend>
+                <div class="mb=3">
+                  <label for="nome" class="form-label">Nome</label>
+                  <input class="form-control" name="nome" type="text" id="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="mb=3">  
+                  <label for="cpf" class="form-label">CPF</label>
+                  <input class="form-control" name="cpf" type="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" required>
+                </div> 
+                <div class="mb=3"> 
+                  <label for="telefone" class="form-label">Telefone</label>
+                  <input class="form-control" name="telefone" for="telefone" type="tel" id="telefone" placeholder="Digite um telefone para contato" required>
+                </div> 
+                <div class="mb=3">
+                  <label for="sintoma" class="form-label">Descreva o motivo do seu contato</label>
+                  <textarea class="form-control" name="sintoma" id="sintoma"  cols="30" rows="6" placeholder="Descreva seus sintomas(local da dor, intensidade e quando comecou)" required></textarea>
+                </div> 
+                <div class="text-center">
                     <a href="cadastro.php">
-                        <button type="submit">Agendar</button>
+                        <button type="submit" class="btn">Agendar</button>
                     </a>
                 </div>
                 <div>
-                    <a href="logout.php" >Logoff</a>
+                    <a href="logout.php" >Logof</a>
                 </div>
+              </fieltset>
             </form>
         </div>
         <br><br><br><br><br><br><br><br><br><br><br>
