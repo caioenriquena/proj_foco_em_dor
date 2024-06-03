@@ -1,4 +1,7 @@
+<<?php 
+include ("sessao_config.php");
 
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
