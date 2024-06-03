@@ -62,7 +62,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="logout.php" >Logof</a>
+                    <a href="logout.php" >Logoff</a>
                 </div>
               </fieltset>
             </form>
