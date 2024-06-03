@@ -9,6 +9,7 @@
 body{
     width: 100%;
     min-height: 100vh;
+    font-family: 'Mulish', sans-serif;
 }
 nav{
     background-color: #fff;
@@ -22,17 +23,17 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
     margin: 0 auto;
 }
 
 .logo img {
-    padding-left: 40px;
     width: 100px;
     height: auto;
 }
 .menu li {
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 20px;
 }
 
 .menu a{
@@ -45,233 +46,167 @@ main{
 }
 .contact a{
     align-items: center;
-    margin-right: 50px;
+    margin-right: 10px;
     text-decoration: none;
 }
 .contact img{
-    width: 150px;
+    width: 40px;
 }
 
 .perfil{
     padding-top: 70px;
     display: flex;
     align-items: center;
-    align-content: center;
+    text-align: center;
     justify-content: center;
     text-align: center;
-    width: 99%;
+    width: 100%;
     height: 60vh;
     background-image: url(../img/Design\ sem\ nome-2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
+    flex-direction: column;
+    color: #fff;
 }
 
 .perfil h1{
-    display: flex;
-    position: absolute;
-    text-align: center;
-    top: 200px;
-    left: 39.5vw;
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
-    padding-bottom: 7px;
-    border-bottom: 1px solid white;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
     
 }
 .perfil h3{
-    display: flex;
-    text-align: center;
-    font-weight: 500;
-    left: 38.5vw;
-    padding-left: 159px;
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
+    font-size: 1.2rem;
 }
-.perfil p{
-    display: flex;
-    text-align: center;
-    font-weight: 500;
-    top: 200px;
-    left: 38.5vw;
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
+.btn-enviar{
+    margin-top: 20px;
 }
 
 .btn-enviar button{
     color: #fff;
-    padding: 4px 20px 4px;
-    position: relative;
-    font-size: 15px;
-    top: 100px;
-    right: 320px;
+    padding: 10px 20px;
+    font-size: 1rem;
     font-weight: 500;
     background-color: #41B010;
-    border: 0;
+    border: none;
     border-radius: 7px;
     cursor: pointer;
-    left: -17vw;
 }
 
-.card {
+.card, .comentarios {
     background-color: #fff;
     width: 850px;
-    height: 400px;
-    top: 10px;
-    position: relative;
-    transform: translate(40%, -10%);
+    margin: 20px auto;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #000000aa;
-}
-
-.card div{
-    display:flex;
-    position: relative;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 4px;
-    height: 50%;
+    padding: 20px;
 }
 
 .card img{
-    right: 70px;
-    top: 2px;
-}
-
-.card h1{
-    font-size: 1.2rem;
+    height: 400px;
     position: relative;
-    left: 100px;
-    margin-top: -750px;
-    top: 50px;
-    font-family: 'Mulish', sans-serif;
-    color: #292929;
+    right: 310px;
+    top: 40px;
+    margin-bottom: 20px;
 }
 
-.card h3{
-    font-size: .9rem;
-    color: #3c3c3c;
-    font-family: 'Mulish', sans-serif;
+.card h1, .card h3, .card buttom, .comentarios h2, .comentarios img{
+    margin: 5px 0;
+    position: relative;
+    left: 90px;
+    font-weight: 400;
+    margin-top: -150px;
+}
+.card h1 {
+    font-size: 1.5rem;
+    position: relative;
+    left: 200px;
     font-weight: 500;
-    position: relative;
-    left: 130px;
-    top: 50px;
-    margin-top:30px;
+    top: -200px;
 }
 
-.card button{
+.card h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+.card button {
     background-color: #8D0C00;
-    height: 30px;
-    border: none;
-    padding: 4px;
-    width: 90px;
+    height: 40px;
+    left: 260px;
+    top: 30px;
     position: relative;
-    left: 100px;
-    margin-top: 30px;
-    top: 50px;
+    border: none;
+    padding: 10px;
+    width: 120px;
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
-    border: 0;
     border-radius: 7px;
     cursor: pointer;
 }
 
 .espaco{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    align-content: center;
     justify-content: center;
     text-align: center;
     width: 100%;
     height: 50vh;
-    position: relative;
 }
 
 
 .info{
     background-color: #8D0C00;
+    padding: 40px 20px;
+    text-align: center;
 }
 
-.info h3{
+.info h3, .info h2, .info h4{
     color: #fff;
-    font-family: 'Mulish', sans-serif;
     font-weight: 500;
-    position: relative;
-    left: 650px;
-    margin-top:30px;
+    margin: 10px 0;
 }
-.info h2{
-    color: #fff;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 500;
-    position: relative;
-    left: 600px;
-    margin-top:10px;
-}
-
-.info h4{
-    color: #fff;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 500;
-    position: relative;
-    left: 490px;
-    margin-top: 10px;
-
-}
-
-.comentarios{
-    background-color: #fff;
-    width: 850px;
-    height: 400px;
-    top: 3px;
-    left: 310px;
-    position: relative;
-    padding: auto;
-    transform: translate(1%, -10%);
-    border-radius: 12px;
-    box-shadow: 4px 4px 12px #000000aa;
-}
-
-.comentarios h2{
+.comentarios h2 {
     color: #540902;
-    font-family: 'Mulish', sans-serif;
     font-weight: 300;
-    margin-left: 300px;
-    
+    position: relative;
+    top: 130px;
+    left: -10px;
+}
+.comentarios{
+    height: 400px;
 }
 
 .comentarios img{
     position: relative;
-    left: 60px;
-    top: 30px;
-
+    margin-top: 170px;
+    left: -5px;
 }
-.base {
-    display: flex;
-    position: absolute;
-    top: 116.4vw;
+
+
+#map {
+    background-color: #8D0C00;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#map img {
     margin-top: 20px;
-    background-color: #8D0C00;
-}
-#map{
-    background-color: #8D0C00;
-    width: 99%;
 }
 
-#map img{
-    margin-top: 50px;
-    position:absolute;
-    left: 680px;
-}
 .footer {
     background-color: #540902;
     color: #fff;
     text-align: center;
-    margin-top: 261px;
+    padding: 20px;
 }
 
-.copyright p {
+.footer p {
     margin: 0;
     font-size: 14px;
 }
@@ -291,8 +226,4 @@ main{
     color: #fff;
     text-decoration: none;
     font-size: 12px;
-}
-
-hr, a {
-    color: #fff ;
 }
