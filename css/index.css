@@ -224,7 +224,7 @@ main{
     background-color: #fff;
     width: 850px;
     height: 400px;
-    top: 10px;
+    top: 3px;
     left: 310px;
     position: relative;
     padding: auto;
@@ -244,24 +244,31 @@ main{
 .comentarios img{
     position: relative;
     left: 60px;
+    top: 30px;
 
 }
 .base {
     display: flex;
     position: absolute;
     top: 116.4vw;
-    height: 600px;
-    width: 1510px;
     margin-top: 20px;
     background-color: #8D0C00;
 }
+#map{
+    background-color: #8D0C00;
+    width: 99%;
+}
 
+#map img{
+    margin-top: 50px;
+    position:absolute;
+    left: 680px;
+}
 .footer {
     background-color: #540902;
     color: #fff;
-    padding: 10px;
     text-align: center;
-    margin-top: 334px;
+    margin-top: 261px;
 }
 
 .copyright p {
