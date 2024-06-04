@@ -1,125 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400; 0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-*{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    min-height: 100vh;
-}
-nav{
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-main{
-    width: 100vw;
-    height: 300vh;
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+.container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo img {
-    padding-left: 40px;
-    width: 100px;
-    height: auto;
-}
-.menu li {
-    display: inline-block;
-    margin-right: 60px;
+.container > a > img {
+    width: 140px;
+    padding-left: 173px;
+    padding-bottom: 20px;
 }
 
-.menu a{
-    text-decoration: none;
+.container fieldset {
+    border: 2px solid #8D0C00;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.container h4 {
     color: #8D0C00;
-    font-size: 20px;
 }
-.contact{
-    display: flex;
-}
-.contact a{
-    align-items: center;
-    margin-right: 50px;
+
+.texto {
+    color: #8D0C00;
     text-decoration: none;
 }
-.contact img{
-    width: 150px;
+
+.texto-botao {
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.perfil h1{
-    display: flex;
-    position: absolute;
-    text-align: center;
-    top: 200px;
-    left: 38.5vw;
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
-    padding-bottom: 7px;
-    border-bottom: 1px solid white;
-    
-}
-.perfil h3{
-    display: flex;
-    text-align: center;
-    font-weight: 500;
-    left: 38.5vw;
-    padding-left: 159px;
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
-}
-.perfil p{
-    display: flex;
-    text-align: center;
-    font-weight: 500;
-    top: 200px;
-    left: 38.5vw;
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
-}
-
-.agradecimento h1{
-    display: flex;
-    position: absolute;
-    text-align: center;
-    top: 200px;
-    left: 32vw;
-    font-family: 'Mulish', sans-serif;
-    color: #8D0C00;
-    padding-bottom: 7px;
-    border-bottom: 1px solid rgb(195, 195, 195);
-}
-
-.agradecimento h3{
-    display: flex;
-    position: absolute;
-    text-align: center;
-    top: 250px;
-    left: 32vw;
-    font-family: 'Mulish', sans-serif;
-    color: #8D0C00;
-    padding-bottom: 7px;
-
-}
-.btn-enviar button {
+.btn {
     background-color: #8D0C00;
-    height: 30px;
+    color: #ffffff;
+    padding: 10px 20px;
     border: none;
-    padding: 4px;
-    width: 90px;
-    position:relative;
-    left: 720px;
-    margin-top: 190px;
-    top: 50px;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 500;
-    border: 0;
-    border-radius: 7px;
+    border-radius: 4px;
     cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #710a01;
 }
