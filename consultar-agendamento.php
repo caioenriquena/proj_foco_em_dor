@@ -1,4 +1,4 @@
-<<?php 
+<?php 
 include ("sessao_config.php");
 
 ?>
