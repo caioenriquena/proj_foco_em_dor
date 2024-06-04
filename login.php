@@ -14,7 +14,7 @@ if(isset($_SESSION['usuario_id']) && $_SESSION['usuario_id'] != null ){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="css/teste.css">
+    <link rel="stylesheet" href="css/index2.css">
 </head>
 <body>
     <div class="container">

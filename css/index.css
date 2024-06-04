@@ -102,10 +102,10 @@ main{
     cursor: pointer;
     font-family: 'Mulish', sans-serif;
 }
-.btn-enviar :hover{
-    background-color: #31850d;
-}
 
+.btn-enviar:hover {
+    color: #1a5700;
+}
 
 .card, .comentarios {
     background-color: #fff;

@@ -9,7 +9,7 @@ include("sessao_config.php");
     <title>Agendamento de Consulta</title>
     <script src="script.js"></script>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIZa51eHFqY0CajMvwEJRqPQ1ELFnz_ww&callback=initMap&libraries=maps,marker&v=beta"></script>
-    <link rel="stylesheet" href="css/teste.css">
+    <link rel="stylesheet" href="css/index2.css">
 </head>
 <body>
     <div class="container">
