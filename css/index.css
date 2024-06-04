@@ -103,10 +103,13 @@ main{
     font-family: 'Mulish', sans-serif;
 }
 
-.btn-enviar:hover {
-    color: #1a5700;
+.btn-enviar button:hover {
+    background-color: #1a5700;
 }
 
+.btn-verMais:hover {
+    background-color: #710a01;
+}
 .card, .comentarios {
     background-color: #fff;
     width: 850px;
